@@ -12,10 +12,26 @@
 #getTradeOpDash
 {
         padding: 2px;
+        display: inline-block;
         background-color:LightGray;
         width:600px;
 }
-   
+
+
+#tblgetbuttonsDash
+{
+    
+    white-space: nowrap;
+}
+
+
+#tbltrade_buttons
+{
+    
+    white-space: nowrap;
+}
+
+
 #getbuttonsDash {
     width:117px;
 }

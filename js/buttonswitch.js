@@ -3,7 +3,7 @@
 var btn_temp = 0;
 
 function setColor(trade,amount,btn) {
-     alert(btn);
+     
 	if((btn > 1 && btn < 7) || (btn > 7 && btn < 13)){
 		
 		countlosses--;	
