@@ -40,8 +40,7 @@ onMessage = function(msg) {
 		
 			for(var i in js.statement.transactions)
 				writeToScreen("= $ " + checkWinOrLoss(js.statement.transactions[i].amount) + " ID: ".bold() + js.statement.transactions[i].transaction_id + " Payout: ".bold()  +  js.statement.transactions[i].payout + " Action : ".bold()  +  js.statement.transactions[i].action_type + " Amount: ".bold()  + js.statement.transactions[i].amount + " Bal After: ".bold()  + js.statement.transactions[i].balance_after);
-			alert("countlosses = "+ countlosses +":  countwins = " + countwins);
-			writeWinLossToScreen();
+				writeWinLossToScreen();
         }
 		
 		
